@@ -1,0 +1,7 @@
+Run:
+"apt-file search fontconfig.pc"
+Then use the output folder location of the file 'fontconfig.pc' using export:
+'export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig'
+(this should be set in the .bashrc file)
+Run:
+'sudo apt-get install libfontconfig1-dev libcairo2-dev'
